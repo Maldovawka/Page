@@ -1,0 +1,87 @@
+.main-conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(140, 184, 223);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.bokovaya {
+    width: 10;
+    margin: 70px;
+}
+
+.bokovaya>div {
+    width: 100%;
+}
+
+.bokovaya>div>img {
+    width: 100%;
+    border-radius: 10% ;
+}|
+
+.main-info {
+    width: 80%;
+    
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: Tangerine, serif;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(8, 74, 136)
+    
+}
+h3 {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(33, 31, 172);
+ text-align: center;
+}
+
+p {
+    line-height: 30px;
+    font-family: "Advent Pro", sans-serif;
+}
+
+.saiti {
+    line-height: 30px;
+    list-style: none;
+    
+
+}
+
+.bok {
+    line-height: 30px;
+}
+
+.about1{
+    margin: 100px;
+}
+
+
+
+li {
+    font-family: "Sriracha", cursive;
+}
+
+.boki {
+    font-family: "Pacifico", cursive;
+}
+
+a { 
+    text-decoration: none;
+}

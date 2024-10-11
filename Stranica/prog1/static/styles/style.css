@@ -1,0 +1,98 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 15px;
+    line-height: 2;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Боковая панель */
+.bokovaya {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #22dbb3;
+    border: 1px solid #48c018;
+    border-radius: 10%;
+}
+/* Главная информация */
+.main-info {
+    margin-top: auto;
+    padding: 50px;
+}
+/* Картинка */
+.osnova>img {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    
+}
+
+
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #337ab7;
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    
+}
+h3 {
+    font-size: 20px;
+}
+
+@keyframes color-change{
+    0%{
+     color: rgb(226, 14, 14);
+     
+    }
+    32%{
+        color: rgb(231, 134, 22);
+    }
+    48%{
+        color: rgb(193, 243, 11);
+    }
+    64%{
+        color: rgb(13, 218, 13);
+    }
+    80%{
+        color: rgba(13, 46, 194, 0.849);
+    }
+     100%{
+         color: rgb(168, 15, 214);
+     }
+     
+ }
+.perviy{
+    text-align: center;
+    font-family: fantasy;
+    animation: color-change 1.5s infinite;
+}
+
+.vi4{
+    font-family:cursive;
+}
+
+
+.infa{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
